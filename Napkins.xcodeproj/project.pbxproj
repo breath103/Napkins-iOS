@@ -7,33 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0725370C17EC79E5006E9696 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0725370B17EC79E5006E9696 /* SenTestingKit.framework */; };
+		0725370D17EC79E5006E9696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA917EC4A92003E58ED /* UIKit.framework */; };
+		0725370E17EC79E5006E9696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA517EC4A92003E58ED /* Foundation.framework */; };
+		0725371417EC79E5006E9696 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0725371217EC79E5006E9696 /* InfoPlist.strings */; };
+		0725371D17EC7BF5006E9696 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072536F917EC76C1006E9696 /* Security.framework */; };
+		0725371E17EC7BFB006E9696 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0725370017EC76FD006E9696 /* MobileCoreServices.framework */; };
+		0725371F17EC7C00006E9696 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072536FD17EC76E8006E9696 /* SystemConfiguration.framework */; };
+		0725372017EC7C0B006E9696 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072536FD17EC76E8006E9696 /* SystemConfiguration.framework */; };
+		0725372117EC7C11006E9696 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0725370017EC76FD006E9696 /* MobileCoreServices.framework */; };
+		0725372217EC7C15006E9696 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072536F917EC76C1006E9696 /* Security.framework */; };
+		0725372317EC7C22006E9696 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA717EC4A92003E58ED /* CoreGraphics.framework */; };
+		0725372617EC7D9A006E9696 /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0725372517EC7D9A006E9696 /* AppDelegateSpec.mm */; };
+		0725372917EC7FB7006E9696 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0725372817EC7FB7006E9696 /* RootViewController.m */; };
+		0725372D17EC807C006E9696 /* RootViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0725372C17EC807C006E9696 /* RootViewControllerSpec.mm */; };
+		076B8E8F17EC4E0300292979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076B8E8E17EC4E0300292979 /* Main.storyboard */; };
+		0776F79B17EC611100D6ABDD /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776F79917EC611100D6ABDD /* IntroViewController.m */; };
+		0776F79C17EC611100D6ABDD /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0776F79A17EC611100D6ABDD /* IntroViewController.xib */; };
+		0776F79E17EC61B600D6ABDD /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 0776F79D17EC61B600D6ABDD /* Gemfile */; };
 		07CD2AA617EC4A92003E58ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA517EC4A92003E58ED /* Foundation.framework */; };
 		07CD2AA817EC4A92003E58ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA717EC4A92003E58ED /* CoreGraphics.framework */; };
 		07CD2AAA17EC4A92003E58ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA917EC4A92003E58ED /* UIKit.framework */; };
 		07CD2AB017EC4A92003E58ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2AAE17EC4A92003E58ED /* InfoPlist.strings */; };
 		07CD2AB217EC4A92003E58ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AB117EC4A92003E58ED /* main.m */; };
 		07CD2AB617EC4A92003E58ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AB517EC4A92003E58ED /* AppDelegate.m */; };
-		07CD2AB917EC4A92003E58ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2AB717EC4A92003E58ED /* Main.storyboard */; };
-		07CD2ABC17EC4A92003E58ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2ABB17EC4A92003E58ED /* ViewController.m */; };
 		07CD2ABE17EC4A92003E58ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2ABD17EC4A92003E58ED /* Images.xcassets */; };
-		07CD2AC517EC4A92003E58ED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AC417EC4A92003E58ED /* XCTest.framework */; };
-		07CD2AC617EC4A92003E58ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA517EC4A92003E58ED /* Foundation.framework */; };
-		07CD2AC717EC4A92003E58ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD2AA917EC4A92003E58ED /* UIKit.framework */; };
-		07CD2ACF17EC4A92003E58ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2ACD17EC4A92003E58ED /* InfoPlist.strings */; };
-		07CD2AD117EC4A92003E58ED /* NapkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AD017EC4A92003E58ED /* NapkinsTests.m */; };
+		07CD2ADD17EC4C34003E58ED /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2ADC17EC4C34003E58ED /* Podfile */; };
+		0E1EBE2E8A3241A6B089F901 /* libPods-NapkinsSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04198BE072324127A0118BAA /* libPods-NapkinsSpec.a */; };
+		6E01B02D5DAA4A779BD29C26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6C9231C8C04512BA1A75EA /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		07CD2AC817EC4A92003E58ED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07CD2A9A17EC4A92003E58ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07CD2AA117EC4A92003E58ED;
-			remoteInfo = Napkins;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		04198BE072324127A0118BAA /* libPods-NapkinsSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NapkinsSpec.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06344BB837204410BDEB7464 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		072536F917EC76C1006E9696 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		072536FB17EC76CE006E9696 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		072536FD17EC76E8006E9696 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0725370017EC76FD006E9696 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0725370A17EC79E4006E9696 /* NapkinsSpec.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NapkinsSpec.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0725370B17EC79E5006E9696 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0725371117EC79E5006E9696 /* NapkinsSpec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NapkinsSpec-Info.plist"; sourceTree = "<group>"; };
+		0725371317EC79E5006E9696 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0725371917EC79E5006E9696 /* NapkinsSpec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NapkinsSpec-Prefix.pch"; sourceTree = "<group>"; };
+		0725372517EC7D9A006E9696 /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
+		0725372717EC7FB7006E9696 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0725372817EC7FB7006E9696 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0725372C17EC807C006E9696 /* RootViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewControllerSpec.mm; sourceTree = "<group>"; };
+		076B8E8E17EC4E0300292979 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0776F79817EC611100D6ABDD /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		0776F79917EC611100D6ABDD /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		0776F79A17EC611100D6ABDD /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		0776F79D17EC61B600D6ABDD /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = SOURCE_ROOT; };
 		07CD2AA217EC4A92003E58ED /* Napkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Napkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD2AA517EC4A92003E58ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07CD2AA717EC4A92003E58ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,48 +68,94 @@
 		07CD2AB317EC4A92003E58ED /* Napkins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Napkins-Prefix.pch"; sourceTree = "<group>"; };
 		07CD2AB417EC4A92003E58ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07CD2AB517EC4A92003E58ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07CD2AB817EC4A92003E58ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07CD2ABA17EC4A92003E58ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07CD2ABB17EC4A92003E58ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		07CD2ABD17EC4A92003E58ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		07CD2AC317EC4A92003E58ED /* NapkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NapkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CD2AC417EC4A92003E58ED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		07CD2ACC17EC4A92003E58ED /* NapkinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NapkinsTests-Info.plist"; sourceTree = "<group>"; };
-		07CD2ACE17EC4A92003E58ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		07CD2AD017EC4A92003E58ED /* NapkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NapkinsTests.m; sourceTree = "<group>"; };
+		07CD2ADC17EC4C34003E58ED /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BF8AC26589B4B209DA836E9 /* Pods-NapkinsSpec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapkinsSpec.xcconfig"; path = "Pods/Pods-NapkinsSpec.xcconfig"; sourceTree = "<group>"; };
+		BB6C9231C8C04512BA1A75EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0725370617EC79E4006E9696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0725372317EC7C22006E9696 /* CoreGraphics.framework in Frameworks */,
+				0725372217EC7C15006E9696 /* Security.framework in Frameworks */,
+				0725372117EC7C11006E9696 /* MobileCoreServices.framework in Frameworks */,
+				0725372017EC7C0B006E9696 /* SystemConfiguration.framework in Frameworks */,
+				0725370C17EC79E5006E9696 /* SenTestingKit.framework in Frameworks */,
+				0725370E17EC79E5006E9696 /* Foundation.framework in Frameworks */,
+				0725370D17EC79E5006E9696 /* UIKit.framework in Frameworks */,
+				0E1EBE2E8A3241A6B089F901 /* libPods-NapkinsSpec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07CD2A9F17EC4A92003E58ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0725371F17EC7C00006E9696 /* SystemConfiguration.framework in Frameworks */,
+				0725371E17EC7BFB006E9696 /* MobileCoreServices.framework in Frameworks */,
+				0725371D17EC7BF5006E9696 /* Security.framework in Frameworks */,
 				07CD2AA817EC4A92003E58ED /* CoreGraphics.framework in Frameworks */,
 				07CD2AAA17EC4A92003E58ED /* UIKit.framework in Frameworks */,
 				07CD2AA617EC4A92003E58ED /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07CD2AC017EC4A92003E58ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07CD2AC517EC4A92003E58ED /* XCTest.framework in Frameworks */,
-				07CD2AC717EC4A92003E58ED /* UIKit.framework in Frameworks */,
-				07CD2AC617EC4A92003E58ED /* Foundation.framework in Frameworks */,
+				6E01B02D5DAA4A779BD29C26 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0725370F17EC79E5006E9696 /* NapkinsSpec */ = {
+			isa = PBXGroup;
+			children = (
+				0725372B17EC806C006E9696 /* BaseControllers */,
+				0725371017EC79E5006E9696 /* Supporting Files */,
+				0725372517EC7D9A006E9696 /* AppDelegateSpec.mm */,
+			);
+			path = NapkinsSpec;
+			sourceTree = "<group>";
+		};
+		0725371017EC79E5006E9696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0725371117EC79E5006E9696 /* NapkinsSpec-Info.plist */,
+				0725371217EC79E5006E9696 /* InfoPlist.strings */,
+				0725371917EC79E5006E9696 /* NapkinsSpec-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0725372A17EC805E006E9696 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0725372717EC7FB7006E9696 /* RootViewController.h */,
+				0725372817EC7FB7006E9696 /* RootViewController.m */,
+			);
+			name = BaseControllers;
+			sourceTree = "<group>";
+		};
+		0725372B17EC806C006E9696 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0725372C17EC807C006E9696 /* RootViewControllerSpec.mm */,
+			);
+			name = BaseControllers;
+			sourceTree = "<group>";
+		};
 		07CD2A9917EC4A92003E58ED = {
 			isa = PBXGroup;
 			children = (
+				0776F79D17EC61B600D6ABDD /* Gemfile */,
+				07CD2ADC17EC4C34003E58ED /* Podfile */,
 				07CD2AAB17EC4A92003E58ED /* Napkins */,
-				07CD2ACA17EC4A92003E58ED /* NapkinsTests */,
+				0725370F17EC79E5006E9696 /* NapkinsSpec */,
 				07CD2AA417EC4A92003E58ED /* Frameworks */,
 				07CD2AA317EC4A92003E58ED /* Products */,
+				06344BB837204410BDEB7464 /* Pods.xcconfig */,
+				8BF8AC26589B4B209DA836E9 /* Pods-NapkinsSpec.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				07CD2AA217EC4A92003E58ED /* Napkins.app */,
-				07CD2AC317EC4A92003E58ED /* NapkinsTests.xctest */,
+				0725370A17EC79E4006E9696 /* NapkinsSpec.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +171,17 @@
 		07CD2AA417EC4A92003E58ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0725370017EC76FD006E9696 /* MobileCoreServices.framework */,
+				072536FD17EC76E8006E9696 /* SystemConfiguration.framework */,
+				072536FB17EC76CE006E9696 /* StoreKit.framework */,
+				072536F917EC76C1006E9696 /* Security.framework */,
 				07CD2AA517EC4A92003E58ED /* Foundation.framework */,
 				07CD2AA717EC4A92003E58ED /* CoreGraphics.framework */,
 				07CD2AA917EC4A92003E58ED /* UIKit.framework */,
 				07CD2AC417EC4A92003E58ED /* XCTest.framework */,
+				0725370B17EC79E5006E9696 /* SenTestingKit.framework */,
+				BB6C9231C8C04512BA1A75EA /* libPods.a */,
+				04198BE072324127A0118BAA /* libPods-NapkinsSpec.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,13 +189,15 @@
 		07CD2AAB17EC4A92003E58ED /* Napkins */ = {
 			isa = PBXGroup;
 			children = (
+				0725372A17EC805E006E9696 /* BaseControllers */,
+				0776F79817EC611100D6ABDD /* IntroViewController.h */,
+				0776F79917EC611100D6ABDD /* IntroViewController.m */,
+				0776F79A17EC611100D6ABDD /* IntroViewController.xib */,
 				07CD2AB417EC4A92003E58ED /* AppDelegate.h */,
 				07CD2AB517EC4A92003E58ED /* AppDelegate.m */,
-				07CD2AB717EC4A92003E58ED /* Main.storyboard */,
-				07CD2ABA17EC4A92003E58ED /* ViewController.h */,
-				07CD2ABB17EC4A92003E58ED /* ViewController.m */,
 				07CD2ABD17EC4A92003E58ED /* Images.xcassets */,
 				07CD2AAC17EC4A92003E58ED /* Supporting Files */,
+				076B8E8E17EC4E0300292979 /* Main.storyboard */,
 			);
 			path = Napkins;
 			sourceTree = "<group>";
@@ -134,34 +213,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		07CD2ACA17EC4A92003E58ED /* NapkinsTests */ = {
-			isa = PBXGroup;
-			children = (
-				07CD2AD017EC4A92003E58ED /* NapkinsTests.m */,
-				07CD2ACB17EC4A92003E58ED /* Supporting Files */,
-			);
-			path = NapkinsTests;
-			sourceTree = "<group>";
-		};
-		07CD2ACB17EC4A92003E58ED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				07CD2ACC17EC4A92003E58ED /* NapkinsTests-Info.plist */,
-				07CD2ACD17EC4A92003E58ED /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0725370917EC79E4006E9696 /* NapkinsSpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0725371A17EC79E5006E9696 /* Build configuration list for PBXNativeTarget "NapkinsSpec" */;
+			buildPhases = (
+				B3079F1DF9424172807EC4C4 /* Check Pods Manifest.lock */,
+				0725370517EC79E4006E9696 /* Sources */,
+				0725370617EC79E4006E9696 /* Frameworks */,
+				0725370717EC79E4006E9696 /* Resources */,
+				0725370817EC79E4006E9696 /* ShellScript */,
+				7CB2E01BB99349B59690A193 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NapkinsSpec;
+			productName = NapkinsSpec;
+			productReference = 0725370A17EC79E4006E9696 /* NapkinsSpec.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		07CD2AA117EC4A92003E58ED /* Napkins */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07CD2AD417EC4A92003E58ED /* Build configuration list for PBXNativeTarget "Napkins" */;
 			buildPhases = (
+				528DE6DD094242AC9AB8A691 /* Check Pods Manifest.lock */,
 				07CD2A9E17EC4A92003E58ED /* Sources */,
 				07CD2A9F17EC4A92003E58ED /* Frameworks */,
 				07CD2AA017EC4A92003E58ED /* Resources */,
+				BC618522DB2D458DA38E580F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,24 +255,6 @@
 			productReference = 07CD2AA217EC4A92003E58ED /* Napkins.app */;
 			productType = "com.apple.product-type.application";
 		};
-		07CD2AC217EC4A92003E58ED /* NapkinsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 07CD2AD717EC4A92003E58ED /* Build configuration list for PBXNativeTarget "NapkinsTests" */;
-			buildPhases = (
-				07CD2ABF17EC4A92003E58ED /* Sources */,
-				07CD2AC017EC4A92003E58ED /* Frameworks */,
-				07CD2AC117EC4A92003E58ED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				07CD2AC917EC4A92003E58ED /* PBXTargetDependency */,
-			);
-			name = NapkinsTests;
-			productName = NapkinsTests;
-			productReference = 07CD2AC317EC4A92003E58ED /* NapkinsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +263,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "상현 이";
-				TargetAttributes = {
-					07CD2AC217EC4A92003E58ED = {
-						TestTargetID = 07CD2AA117EC4A92003E58ED;
-					};
-				};
 			};
 			buildConfigurationList = 07CD2A9D17EC4A92003E58ED /* Build configuration list for PBXProject "Napkins" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,62 +278,143 @@
 			projectRoot = "";
 			targets = (
 				07CD2AA117EC4A92003E58ED /* Napkins */,
-				07CD2AC217EC4A92003E58ED /* NapkinsTests */,
+				0725370917EC79E4006E9696 /* NapkinsSpec */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0725370717EC79E4006E9696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0725371417EC79E5006E9696 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07CD2AA017EC4A92003E58ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0776F79E17EC61B600D6ABDD /* Gemfile in Resources */,
+				07CD2ADD17EC4C34003E58ED /* Podfile in Resources */,
+				0776F79C17EC611100D6ABDD /* IntroViewController.xib in Resources */,
 				07CD2ABE17EC4A92003E58ED /* Images.xcassets in Resources */,
 				07CD2AB017EC4A92003E58ED /* InfoPlist.strings in Resources */,
-				07CD2AB917EC4A92003E58ED /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07CD2AC117EC4A92003E58ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07CD2ACF17EC4A92003E58ED /* InfoPlist.strings in Resources */,
+				076B8E8F17EC4E0300292979 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0725370817EC79E4006E9696 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		528DE6DD094242AC9AB8A691 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB2E01BB99349B59690A193 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NapkinsSpec-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3079F1DF9424172807EC4C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC618522DB2D458DA38E580F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0725370517EC79E4006E9696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0725372617EC7D9A006E9696 /* AppDelegateSpec.mm in Sources */,
+				0725372D17EC807C006E9696 /* RootViewControllerSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07CD2A9E17EC4A92003E58ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CD2ABC17EC4A92003E58ED /* ViewController.m in Sources */,
 				07CD2AB617EC4A92003E58ED /* AppDelegate.m in Sources */,
+				0776F79B17EC611100D6ABDD /* IntroViewController.m in Sources */,
+				0725372917EC7FB7006E9696 /* RootViewController.m in Sources */,
 				07CD2AB217EC4A92003E58ED /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		07CD2ABF17EC4A92003E58ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07CD2AD117EC4A92003E58ED /* NapkinsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		07CD2AC917EC4A92003E58ED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07CD2AA117EC4A92003E58ED /* Napkins */;
-			targetProxy = 07CD2AC817EC4A92003E58ED /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		0725371217EC79E5006E9696 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0725371317EC79E5006E9696 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		07CD2AAE17EC4A92003E58ED /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,25 +423,65 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		07CD2AB717EC4A92003E58ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07CD2AB817EC4A92003E58ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		07CD2ACD17EC4A92003E58ED /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07CD2ACE17EC4A92003E58ED /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0725371B17EC79E5006E9696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF8AC26589B4B209DA836E9 /* Pods-NapkinsSpec.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Napkins.app/Napkins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/breath103/Works/Napkins/NapkinsSpec/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NapkinsSpec/NapkinsSpec-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NapkinsSpec/NapkinsSpec-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0725371C17EC79E5006E9696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF8AC26589B4B209DA836E9 /* Pods-NapkinsSpec.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Napkins.app/Napkins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/breath103/Works/Napkins/NapkinsSpec/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NapkinsSpec/NapkinsSpec-Prefix.pch";
+				INFOPLIST_FILE = "NapkinsSpec/NapkinsSpec-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		07CD2AD217EC4A92003E58ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -375,9 +556,11 @@
 		};
 		07CD2AD517EC4A92003E58ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06344BB837204410BDEB7464 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Napkins/Napkins-Prefix.pch";
 				INFOPLIST_FILE = "Napkins/Napkins-Info.plist";
@@ -388,9 +571,11 @@
 		};
 		07CD2AD617EC4A92003E58ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06344BB837204410BDEB7464 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Napkins/Napkins-Prefix.pch";
 				INFOPLIST_FILE = "Napkins/Napkins-Info.plist";
@@ -399,51 +584,18 @@
 			};
 			name = Release;
 		};
-		07CD2AD817EC4A92003E58ED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Napkins.app/Napkins";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Napkins/Napkins-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "NapkinsTests/NapkinsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		07CD2AD917EC4A92003E58ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Napkins.app/Napkins";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Napkins/Napkins-Prefix.pch";
-				INFOPLIST_FILE = "NapkinsTests/NapkinsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0725371A17EC79E5006E9696 /* Build configuration list for PBXNativeTarget "NapkinsSpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0725371B17EC79E5006E9696 /* Debug */,
+				0725371C17EC79E5006E9696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		07CD2A9D17EC4A92003E58ED /* Build configuration list for PBXProject "Napkins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -460,14 +612,7 @@
 				07CD2AD617EC4A92003E58ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		07CD2AD717EC4A92003E58ED /* Build configuration list for PBXNativeTarget "NapkinsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07CD2AD817EC4A92003E58ED /* Debug */,
-				07CD2AD917EC4A92003E58ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
