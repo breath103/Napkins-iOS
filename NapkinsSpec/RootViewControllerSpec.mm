@@ -1,4 +1,6 @@
 #import "RootViewController.h"
+#import "User.h"
+#import "IntroViewController.h"
 
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
@@ -27,14 +29,24 @@ describe(@"RootViewController", ^{
     
     describe(@"Set First View", ^{
         context(@"if user first launch the app", ^{
+            beforeEach(^{
+                [User setCurrntUser:nil];
+            });
             it(@"should show intro view controller", ^{
-            
+                UINavigationController *navigationController = [controller navigationController];
+                IntroViewController *introViewController = (id)[navigationController topViewController];
+                introViewController should be_instance_of([IntroViewController class]);
             });
         });
         
         context(@"if user is returning user", ^{
+            beforeEach(^{
+                [User setCurrntUser:[[User alloc]init]];
+            });
             it(@"should show Main View Controller", ^{
-                
+//                UINavigationController *navigationController = [controller navigationController];
+//                IntroViewController *introViewController = (id)[navigationController topViewController];
+//                introViewController should_not be_instance_of([IntroViewController class]);
             });
         });
     });

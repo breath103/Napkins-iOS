@@ -25,19 +25,9 @@
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "NO"
+      buildConfiguration = "Testing">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "072536E217EC712E006E9696"
-               BuildableName = "NapkinsCedarSpec.octest"
-               BlueprintName = "NapkinsCedarSpec"
-               ReferencedContainer = "container:Napkins.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -52,12 +42,29 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "07CD2AA117EC4A92003E58ED"
-            BuildableName = "Napkins.app"
-            BlueprintName = "Napkins"
+            BlueprintIdentifier = "0725370917EC79E4006E9696"
+            BuildableName = "NapkinsSpec.octest"
+            BlueprintName = "NapkinsSpec"
             ReferencedContainer = "container:Napkins.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "CEDAR_REPORTER_OPTS"
+            value = "nested"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "IS_TESTING"
+            value = "1"
+            isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "CEDAR_HEADLESS_SPECS"
+            value = "0"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
