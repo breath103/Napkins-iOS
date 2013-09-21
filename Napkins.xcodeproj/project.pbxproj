@@ -45,6 +45,8 @@
 		07CD2ADD17EC4C34003E58ED /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2ADC17EC4C34003E58ED /* Podfile */; };
 		0E1EBE2E8A3241A6B089F901 /* libPods-NapkinsSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04198BE072324127A0118BAA /* libPods-NapkinsSpec.a */; };
 		6E01B02D5DAA4A779BD29C26 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6C9231C8C04512BA1A75EA /* libPods.a */; };
+		A51DFCF917EDA46200134689 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A51DFCF817EDA46200134689 /* Untitled-1.png */; };
+		A51DFCFA17EDA46200134689 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A51DFCF817EDA46200134689 /* Untitled-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,7 @@
 		07CD2AC417EC4A92003E58ED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		07CD2ADC17EC4C34003E58ED /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8BF8AC26589B4B209DA836E9 /* Pods-NapkinsSpec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NapkinsSpec.xcconfig"; path = "Pods/Pods-NapkinsSpec.xcconfig"; sourceTree = "<group>"; };
+		A51DFCF817EDA46200134689 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
 		BB6C9231C8C04512BA1A75EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -179,6 +182,7 @@
 				0776F79817EC611100D6ABDD /* IntroViewController.h */,
 				0776F79917EC611100D6ABDD /* IntroViewController.m */,
 				0776F79A17EC611100D6ABDD /* IntroViewController.xib */,
+				A51DFCF817EDA46200134689 /* Untitled-1.png */,
 				0725372A17EC805E006E9696 /* BaseControllers */,
 			);
 			name = Controllers;
@@ -353,6 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51DFCFA17EDA46200134689 /* Untitled-1.png in Resources */,
 				0725371417EC79E5006E9696 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51DFCF917EDA46200134689 /* Untitled-1.png in Resources */,
 				0776F79E17EC61B600D6ABDD /* Gemfile in Resources */,
 				07CD2ADD17EC4C34003E58ED /* Podfile in Resources */,
 				0776F79C17EC611100D6ABDD /* IntroViewController.xib in Resources */,
@@ -607,12 +613,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06344BB837204410BDEB7464 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Napkins/Napkins-Prefix.pch";
 				INFOPLIST_FILE = "Napkins/Napkins-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -725,12 +733,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06344BB837204410BDEB7464 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Napkins/Napkins-Prefix.pch";
 				INFOPLIST_FILE = "Napkins/Napkins-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -740,12 +750,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06344BB837204410BDEB7464 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Napkins/Napkins-Prefix.pch";
 				INFOPLIST_FILE = "Napkins/Napkins-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

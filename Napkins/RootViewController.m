@@ -9,6 +9,7 @@
     self = [super init];
     if (self) {
         _navigationController = [[UINavigationController alloc]init];
+        [_navigationController setNavigationBarHidden:YES];
         [self addChildViewController:_navigationController];
     }
     return self;
@@ -19,12 +20,13 @@
     [super viewDidLoad];
     [[self view] setBackgroundColor:[UIColor blueColor]];
     [[self view] addSubview:[_navigationController view]];
+    [[_navigationController view] setFrame:[[self view] bounds]];
     
     if ([User currntUser]) {
      
     } else {
         IntroViewController *introViewController = [[IntroViewController alloc]init];
-        [[self navigationController] pushViewController:introViewController animated:NO];
+        [_navigationController setViewControllers:@[introViewController]];
     }
 }
 
